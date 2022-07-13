@@ -1,0 +1,20 @@
+h1,h2{
+    text-align: center;
+    background: #44b1b1;
+    color: gold;
+    text-shadow: 1px 1px 1px #000000
+}
+img{
+    max-height: 400px;
+    max-width: 400px;
+    position: relative;
+    left: 41%;
+}
+p,li{
+    background:gold;
+    color: #2e7979;
+}
+a{
+   color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
