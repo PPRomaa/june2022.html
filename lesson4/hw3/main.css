@@ -10,7 +10,6 @@ body{
 }
 .wrapper {
     width: 100%;
-    /*height: 1870px;*/
     margin: 0 auto;
     border: 1px solid black;
 }
@@ -63,13 +62,13 @@ body{
     position: absolute;
     width: 20%;
     height: 488px;
-    bottom: 115px;
+    top: 111px;
 }
 .left{
     position: absolute;
     width: 20%;
     height: 400px;
-    bottom: -297px;
+    top: 610px;
 }
 
     @media screen and (min-width:0) and (max-width:768px) {
@@ -83,7 +82,7 @@ body{
     .left{
         flex-direction: row;
         position: relative;
-        bottom: 0;
+        top: 0;
 
         width: 100%;
         column-gap: 10px ;
@@ -98,7 +97,8 @@ body{
 
 
     .left{
-        margin: 0 0 -300px 0;
+        height: 250px;
+        margin: 0 0 -150px 0;
     }
 
     .w101{
